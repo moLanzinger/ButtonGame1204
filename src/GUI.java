@@ -47,7 +47,6 @@ public class GUI extends JFrame {
         this.setSize(650, 900);
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         this.setLayout(new BorderLayout());
-
         MainPanel = new JPanel(new GridLayout(4, 4));
         bottomPanel = new JPanel();
 
@@ -67,6 +66,8 @@ public class GUI extends JFrame {
         Button14 = new JButton("Button14");
         Button15 = new JButton("Button15");
         Button16 = new JButton("Button16");
+
+        //Servas du Nudel
 
         buttonsList.add(Button1);
         buttonsList.add(Button2);
