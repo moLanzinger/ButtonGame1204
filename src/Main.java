@@ -3,5 +3,4 @@ public class Main {
         GUI g = new GUI();
     }
 
-
 }
